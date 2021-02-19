@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/getqsembededurl",
+            "lambdaFunction": "getembedurl",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/getqsembededurl"
+        }
+    ],
+    "resourceName": "amplifyqsembed",
+    "apiName": "amplifyqsembed",
+    "functionArns": [
+        {
+            "lambdaFunction": "getembedurl"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyquicksightdas-dev-223446-authRole",
+        "unAuthRoleName": "amplify-amplifyquicksightdas-dev-223446-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getembedurl",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyquicksightdas-dev-223446-authRole",
+            "UnauthRoleArn": "arn:aws:iam::962789531484:role/amplify-amplifyquicksightdas-dev-223446-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::962789531484:role/amplify-amplifyquicksightdas-dev-223446-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-amplifyquicksightdas-dev-223446-deployment",
+            "UnauthRoleName": "amplify-amplifyquicksightdas-dev-223446-unauthRole",
+            "StackName": "amplify-amplifyquicksightdas-dev-223446",
+            "StackId": "arn:aws:cloudformation:us-east-2:962789531484:stack/amplify-amplifyquicksightdas-dev-223446/5f116310-707d-11eb-abb4-0a1409966064",
+            "AmplifyAppId": "d3d4dqvplg2fux"
+        },
+        "categories": {
+            "auth": {
+                "amplifyquicksightdas4b31d10e": {}
+            },
+            "function": {
+                "getQuickSightDashboardEmbedURL": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3d4dqvplg2fux",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
